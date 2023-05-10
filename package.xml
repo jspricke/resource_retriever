@@ -28,10 +28,12 @@
   <buildtool_depend version_gte="0.5.68">catkin</buildtool_depend>
 
   <build_depend>libcurl-dev</build_depend>
+  <build_depend>boost</build_depend>
 
   <depend>roslib</depend>
   <depend>rosconsole</depend>
-  <depend>boost</depend>
+
+  <build_export_depend>boost</build_export_depend>
 
   <exec_depend>libcurl</exec_depend>
   <exec_depend condition="$ROS_PYTHON_VERSION == 2">python-rospkg</exec_depend>
